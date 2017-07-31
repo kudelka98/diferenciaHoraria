@@ -59,5 +59,6 @@ else
 }
 
 //Mensaje de respuesta:
-echo 'La hora de '.$timezoneInfo['timeZoneId'].' es: '.$diff.' en comparacion a la latitud: '.$latitud.' y la longitud: '.$longitud.' ('.$timezone_data['timeZoneId'].')'.' ingresada';
+//Mensaje de respuesta:
+echo 'La hora de '.$timezoneInfo['timeZoneId'].' es: '.$diff.' horas en comparacion a la latitud: '.$latitud.' y la longitud: '.$longitud.' ('.$timezone_data['timeZoneId'].')'.' ingresada';
 ?>
