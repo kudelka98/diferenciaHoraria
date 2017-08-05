@@ -20,7 +20,7 @@
 			echo $timezoneInfo['timeZoneId'].': '.date('Y-m-d H:i:s');
 		?>
 		<h4>Realice la diferencia horaria...</h4>
-		La diferencia horaria se sacara con la zona horaria de Argentina
+		La diferencia horaria se calculara con la zona horaria de Argentina
 		<br>
 		Solo se permite escribir numeros!
 		<form action = "procesar.php" method="post" name="frm">
